@@ -1,0 +1,46 @@
+
+let a=[1,2,3,4,5,"happy birthday"]
+console.log(a)
+a[6]="bootstrap"
+console.log(a)
+
+
+a[9]="gamma"
+console.log(a)
+
+let b=a.toString()
+console.log(b)
+let c=a.join("+")
+console.log(c)
+
+let r=a.pop()
+console.log(a,r)
+
+let s=a.push(100)
+console.log(a,s)
+
+let t=a.shift()
+console.log(a,t)
+
+let u=a.unshift("bhoot")
+console.log(a,u)
+
+v=delete a[3]
+console.log(a,v)
+
+let a1=[10,11,12,13,14,15,16]
+let a2=[17,18,19,20,21]
+let a3=a.concat(a1,a2)
+console.log(a,a1,a2,a3)
+
+a3.sort()
+console.log(a3)
+
+a.reverse()
+console.log(a)
+
+let z=a.splice(3,2,15,16,17,81,19,19,32,4)
+console.log(a,z)
+
+let f=a.slice(10)
+console.log(a,f)

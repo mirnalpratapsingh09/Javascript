@@ -1,0 +1,6 @@
+message="Good Global"
+function hello1(){
+   // message="Good Morning"
+    console.log("Hello "+message)
+}
+hello1();
