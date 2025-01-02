@@ -1,0 +1,76 @@
+body{
+    font-family: "Roboto";
+    text-align: center;
+}
+
+input{
+    width: 50%;
+    border: 1px solid #ccc;
+    align-self: center;
+}
+
+
+
+
+
+
+.btn{
+    padding: 0;
+    left: 0;
+    
+}
+.coloured-section{
+    background-color: white;
+    color: black;
+}
+
+.container-fluid{
+    padding: 7%,15%;
+}
+
+.btn:hover{
+    background-color: rgb(231, 222, 222);
+    
+}
+
+.round{
+    border-radius: 23px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.sidebar{
+    position: fixed;
+    left: 0px;
+    top: 100px;
+    padding: 0%;
+}
+.dark{
+    color: black;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.nav{
+    font-size: 10px;
+}
+.navbar-brand{
+    font-family: "League Gothic", serif;
+    font-size: 25px;
+}
+.card-left{
+    padding-left: 100px;
+}
+.row1{
+    padding-left: 100px;
+}
+.card-body{
+    border: 1px solid #ccc;
+}
+.sb{
+    margin-left: 350px;
+    align-self: center;
+}
+.signin{
+    margin-left: 450px;
+}
